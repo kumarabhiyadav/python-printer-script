@@ -82,7 +82,7 @@ def create_receipt_image(data):
     qr_image = qr_image.resize((80, 80))
 
     # Add text elements
-    draw.text((20, 10), "SS SAREE & KID'S WEAR", font=font, fill='black')
+    draw.text((20, 10), "SS FASHION & MATCHING", font=font, fill='black')
     box_x = 20
     box_y = 50
     image.paste(qr_image, (box_x, box_y))
